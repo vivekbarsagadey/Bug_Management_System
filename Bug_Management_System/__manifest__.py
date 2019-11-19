@@ -34,7 +34,7 @@
     ],
     
     'images':[
-        'static/description/banner.png'
+        'static/description/banner.png',
         'static/description/icon.png',
         'static/description/index.html',
         ],
