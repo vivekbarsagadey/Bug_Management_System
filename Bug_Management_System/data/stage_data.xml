@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record model="project.bug.type" id="stage_1">
+        <field name="name">New</field>
+        <field name="project_ids">Office Design</field>
+        <field name="on_change">1</field>
+        <field name="sequence">1</field>
+    </record>
+    <record model="project.bug.type" id="stage_2">
+        <field name="name">Open</field>
+        <field name="project_ids">30</field>
+        <field name="on_change">1</field>
+        <field name="sequence">2</field>
+    </record>
+    <record model="project.bug.type" id="stage_3">
+        <field name="name">In Development</field>
+        <field name="project_ids">70</field>
+        <field name="on_change">1</field>
+        <field name="sequence">3</field>
+    </record>
+    <record model="project.bug.type" id="stage_4">
+        <field name="name">Fixed</field>
+        <field name="fold" eval="False"/>
+        <field name="project_ids">100</field>
+        <field name="on_change">1</field>
+        <field name="sequence">4</field>
+    </record>
+    <record model="project.bug.type" id="stage_5">
+        <field name="name">QA review</field>
+        <field name="project_ids">10</field>
+        <field name="on_change">1</field>
+        <field name="sequence">5</field>
+    </record>
+    <record model="project.bug.type" id="stage_6">
+        <field name="name">Reopened</field>
+        <field name="project_ids">30</field>
+        <field name="on_change">1</field>
+        <field name="sequence">6</field>
+    </record>
+    <record model="project.bug.type" id="stage_7">
+        <field name="name">On Hold</field>
+        <field name="project_ids">70</field>
+        <field name="on_change">1</field>
+        <field name="sequence">7</field>
+    </record>
+    <record model="project.bug.type" id="stage_8">
+        <field name="name">Closed</field>
+        <field name="fold" eval="False"/>
+        <field name="project_ids">100</field>
+        <field name="on_change">1</field>
+        <field name="sequence">8</field>
+    </record>
+    <record model="project.bug.type" id="stage_9">
+        <field name="name">Rejected</field>
+        <field name="fold" eval="False"/>
+        <field name="project_ids">100</field>
+        <field name="on_change">1</field>
+        <field name="sequence">9</field>
+    </record>
+</odoo>
