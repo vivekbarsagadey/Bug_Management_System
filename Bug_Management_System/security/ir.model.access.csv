@@ -1,0 +1,20 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_mail_activity_type_project_manager,mail.activity.type.project.manager,mail.model_mail_activity_type,project.group_project_manager,1,1,1,1
+access_project_bug_type_user,project.bug.type.user,model_project_bug_type,base.group_user,1,0,0,0
+access_project_bug_type_project_user,project.bug.type.project.user,model_project_bug_type,project.group_project_user,1,0,0,0
+access_project_bug_type_manager,project.bug.type manager,model_project_bug_type,project.group_project_manager,1,1,1,1
+access_project_bug,project.bug,model_project_bug,project.group_project_user,1,1,1,1
+access_partner_bug user,base.res.partner user,base.model_res_partner,project.group_project_user,1,0,0,0
+access_bug_on_partner,project.bug on partners,model_project_bug,base.group_user,1,0,0,0
+access_project_tags_all,bug.project.project_tags_all,model_project_tags,,1,0,0,0
+access_project_tags_all,bug_project.project_tags_all,model_project_tags,,1,0,0,0
+access_bug_priority_all,bug.project.bug_priority_all,model_bug_priority,,1,0,0,0
+access_bug_priority_manager,project.bug_priority_manager,model_bug_priority,project.group_project_manager,1,1,1,1
+access_issue_reside_all,project.issue_reside_all,model_issue_reside,,1,0,0,0
+access_issue_reside_manager,project.issue_reside_manager,model_issue_reside,project.group_project_manager,1,1,1,1
+access_client_urgency_all,project.client_urgency_all,model_client_urgency,,1,0,0,0
+access_client_urgency_manager,project.client_urgency_manager,model_client_urgency,project.group_project_manager,1,1,1,1
+access_bug_version_all,project.bug_version_all,model_bug_version,,1,0,0,0
+access_bug_version_manager,project.bug_version_manager,model_bug_version,project.group_project_manager,1,1,1,1
+access_fix_version_all,project.fix_version_all,model_fix_version,,1,0,0,0
+access_fix_version_manager,project.fix_version_manager,model_fix_version,project.group_project_manager,1,1,1,1
