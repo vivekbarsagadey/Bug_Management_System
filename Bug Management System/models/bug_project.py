@@ -69,7 +69,7 @@ class Bug(models.Model):
     _name = "project.bug"
     _description = "Bug"
     _date_name = "date_start"
-    _res_model: 'project.project'
+    _res_model: "project.project"
     _inherit = ['portal.mixin', 'mail.thread', 'mail.activity.mixin', 'rating.mixin']
     _mail_post_access = 'read'
     _order = "priority desc, sequence, id desc"
